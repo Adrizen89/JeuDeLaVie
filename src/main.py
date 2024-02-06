@@ -1,9 +1,9 @@
-from auth import create_user
-from database import initialize_db
+from ui import main_login_window
 
 def main():
     """ Point d'entrée de l'application. """
-    initialize_db()
+    # Lance la fenêtre de connexion
+    main_login_window()
 
 if __name__ == "__main__":
     main()
